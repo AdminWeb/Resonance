@@ -1,0 +1,15 @@
+{
+  "name": "resonance",
+  "version": "1.0.0",
+  "description": "An agnostic PHP library for realtime",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Igor C. de Paula <igordepaula@adminweb.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.7.1",
+    "socket.io": "^2.0.3"
+  }
+}

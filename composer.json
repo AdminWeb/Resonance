@@ -1,0 +1,26 @@
+{
+  "name": "adminweb/resonance",
+  "description": "A PHP library for agnostic realtime",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "version":"1.0.0",
+  "authors": [
+    {
+      "name": "Igor C. de Paula",
+      "email": "igordepaula@adminweb.com.br"
+    }
+  ],
+  "require": {
+    "predis/predis": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Resonance\\": "src/Resonance/"
+    }
+  },
+  "bin":[
+    "bin/config.json",
+    "bin/package.json",
+    "bin/server.js"
+  ]
+}
