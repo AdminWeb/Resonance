@@ -1,9 +1,9 @@
 {
   "name": "adminweb/resonance",
-  "description": "A PHP library for agnostic realtime",
+  "description": "An agnostic framework PHP library for realtime.",
   "minimum-stability": "stable",
   "license": "MIT",
-  "version":"1.0.0",
+  "version":"1.0.1",
   "authors": [
     {
       "name": "Igor C. de Paula",
