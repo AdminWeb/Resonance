@@ -5,10 +5,17 @@ An agnostic framework PHP library for realtime.
 
 Requirements
 ------------------
+
 PHP >= 5.5
+
 Redis Server
+
 NodeJS >= 6
 
+Installation
+------------
+
+```composer require adminweb/resonance```
 
 Usage
 --------
