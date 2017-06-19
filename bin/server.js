@@ -12,7 +12,9 @@ var chans = config.channels.map(function(chan){
 sub.on("message",function(channel, data){
     var message = JSON.parse(data)
     chans.map(function(chan){
-        chan.emit(message.event, message.message)
+        if(chan.name == '/'+channel){
+            chan.emit(message.event, message.music)
+        }
     })
 });
 config.channels.map(function(chan){
