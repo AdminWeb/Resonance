@@ -1,4 +1,4 @@
 {
-  "server_port":8080,
-  "channels":["admin","user"]
+  "server_port": 8080,
+  "channels": ["admin","user"]
 }
