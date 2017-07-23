@@ -19,11 +19,10 @@ Installation
 
 Usage
 --------
-Install dependencies on ```/vendor/bin/package.json```.
 
-Configure port and channels on ```/vendor/bin/config.json```.
+Install the [Resonance server](https://github.com/AdminWeb/Resonance-server)
 
-Start the server in background with [forever](https://www.npmjs.com/package/forever) or [PM2](https://www.npmjs.com/package/pm2).
+Start the Resonance server in background with [forever](https://www.npmjs.com/package/forever) or [PM2](https://www.npmjs.com/package/pm2).
 
 Implements the ```Resonance\BeatInterface``` on your classes on your app.
 

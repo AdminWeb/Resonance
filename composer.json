@@ -3,7 +3,7 @@
   "description": "An agnostic framework PHP library for realtime.",
   "minimum-stability": "stable",
   "license": "MIT",
-  "version":"1.0.1",
+  "version":"1.5.1",
   "authors": [
     {
       "name": "Igor C. de Paula",
@@ -17,10 +17,5 @@
     "psr-4": {
       "Resonance\\": "src/Resonance/"
     }
-  },
-  "bin":[
-    "bin/config.json",
-    "bin/package.json",
-    "bin/server.js"
-  ]
+  }
 }
